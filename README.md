@@ -12,10 +12,10 @@ python speedtest_daemon.py <time> -o <output> -d <delay> --IPs <json>
 
 where:
 
-* _<time>_ is the time (in seconds) the daemon should live.
-* _<output>_ is a path and basename to the output file (extension should not be included).
-* _<delay>_ time (in seconds) between two consecutive measurements.
-* _<json>_ is the path to a JSON file that contains a {name: IP-address} map (see [IPs.json](IPs.json) for an example).
+* _time_ is the time (in seconds) the daemon should live.
+* _output_ is a path and basename to the output file (extension should not be included).
+* _delay_ time (in seconds) between two consecutive measurements.
+* _json_ is the path to a JSON file that contains a {name: IP-address} map (see [IPs.json](IPs.json) for an example).
 
 ## Tests
 
